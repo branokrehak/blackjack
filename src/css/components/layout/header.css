@@ -1,0 +1,26 @@
+header {
+  z-index: 999;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(0, 39, 0);
+  padding: 1.5rem 0;
+}
+header nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.125rem;
+}
+header nav .logo img {
+  margin-right: 1rem;
+  height: 6rem;
+}/*# sourceMappingURL=header.css.map */

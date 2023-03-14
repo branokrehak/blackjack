@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+html{
+  font-size: .75vw;
+  @media (max-width: 1850px) {
+    font-size: 1rem;
+  }
+}
+li, a{
+  text-decoration: none;
+  list-style: none;
+  &:hover{
+    text-decoration: none;
+    list-style: none;
+  }
+}
+.container{
+  max-width: 80% !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  @media screen and (max-width: 991px) {
+    max-width: 95% !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
